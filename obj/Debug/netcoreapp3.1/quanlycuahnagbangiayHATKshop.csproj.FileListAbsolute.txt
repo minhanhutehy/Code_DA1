@@ -1,0 +1,13 @@
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.exe
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.deps.json
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.json
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.dev.json
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csprojAssemblyReference.cache
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csproj.CoreCompileInputs.cache
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfoInputs.cache
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfo.cs
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.genruntimeconfig.cache

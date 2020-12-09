@@ -20,22 +20,20 @@ namespace Quanlycuahangbangiay.Bussiness
             string magiay = Console.ReadLine();
             Console.Write("|                   Nhập tên giầy: ");
             string tengiay = Console.ReadLine();
-            Console.Write("|                   Nhập mã loại giầy: ");
-            string maloai = Console.ReadLine();
             Console.Write("|                    số lượng nhập: ");
             int slNhap = int.Parse(Console.ReadLine());
             Console.Write("|                   Nhập số lượng hiện có: ");
             int slHienco = int.Parse(Console.ReadLine());
             Console.WriteLine(" _____________________________________________________");
-            MauGiay mg = new MauGiay(magiay, tengiay, maloai, slNhap, slHienco);
+            MauGiay mg = new MauGiay(magiay, tengiay, slNhap, slHienco);
             maugiays.Add(mg);
         }
         public void Hien()
         {
-            Console.WriteLine("{0,10}|{1,10}|{2,10}|{3,20}|{4,20}","Ma giay","Ten Giay","Ma Loai","So luong nhap","So luong hien co");
+            Console.WriteLine("{0,10}|{1,10}|{2,10}|{3,20}","Ma giay","Ten Giay","So luong nhap","So luong hien co");
             foreach(MauGiay mg in maugiays)
             {
-                Console.WriteLine("{0,10}|{1,10}|{2,10}|{3,20}|{4,20}", mg.MaGiay, mg.TenGiay, mg.MaLoai, mg.SlNhapve, mg.SlHienco);
+                Console.WriteLine("{0,10}|{1,10}|{2,20}|{3,20}", mg.MaGiay, mg.TenGiay, mg.SlNhapve, mg.SlHienco);
             }    
         }
     }

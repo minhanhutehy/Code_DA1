@@ -26,12 +26,72 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             return maCTHDB + ";" + ";" + maHDB+ ";"+ maGiay+ ";" + soLuong+ ";" + donGiaBan+ ";" + donViTinh;
         }
-        public string MaCTHDB { get => maCTHDB; set => maCTHDB = value; }
-        public string MaHDB { get => maHDB; set => maHDB = value; }
-        public string MaGiay { get => maGiay; set => maGiay = value; }
-        public int SoLuong { get => soLuong; set => soLuong = value; }
-        public double DonGiaBan { get => donGiaBan; set => donGiaBan = value; }
-        public string DonViTinh { get => donViTinh; set => donViTinh = value; }
+        public string MaCTHDB 
+        {
+            get
+            {
+                return maCTHDB;
+            }
+            set
+            {
+                maCTHDB = value;
+            }
+        }
+        public string MaHDB
+        {
+            get
+            {
+                return maHDB;
+            }
+            set
+            {
+                maHDB = value;
+            }
+        }
+        public string MaGiay
+        {
+            get
+            {
+                return MaGiay;
+            }
+            set
+            {
+                MaGiay = value;
+            }
+        }
+        public int SoLuong
+        {
+            get
+            {
+                return SoLuong;
+            }
+            set
+            {
+                SoLuong = value;
+            }
+        }
+        public double DonGiaBan
+        {
+            get
+            {
+                return DonGiaBan;
+            }
+            set
+            {
+                DonGiaBan = value;
+            }
+        }
+        public string DonViTinh
+        {
+            get
+            {
+                return DonViTinh;
+            }
+            set
+            {
+                DonViTinh = value;
+            }
+        }
         public double ThanhTien(int soLuong,double donGiaBan)
         {
             return soLuong * donGiaBan;

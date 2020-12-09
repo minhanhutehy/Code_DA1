@@ -18,7 +18,7 @@ namespace Quanlycuahangbangiay.DataAccess
             {
                 if (line == " ") break;
 
-                ngm.Add(new MauGiay(line.Split(';')[0], line.Split(';')[1], line.Split(';')[2], int.Parse(line.Split(';')[3]), int.Parse(line.Split(';')[4])));
+                ngm.Add(new MauGiay(line.Split(';')[0], line.Split(';')[1], int.Parse(line.Split(';')[2]), int.Parse(line.Split(';')[3])));
 
             }
             streamReader.Close();

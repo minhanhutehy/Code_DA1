@@ -22,9 +22,49 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             return maHDB + ";" + maNVBan + ";" + ngayBan + ";" + tongTien;
         }
-        public string MaHDB { get => maHDB; set => maHDB = value; }
-        public string MaNVBan { get => maNVBan; set => maNVBan = value; }
-        public string NgayBan { get => ngayBan; set => ngayBan = value; }
-        public double TongTien { get => tongTien; set => tongTien = value; }
+        public string MaHDB
+        {
+            get
+            {
+                return MaHDBn;
+            }
+            set
+            {
+                MaHDB = value;
+            }
+        }
+        public string MaNVBan
+        {
+            get
+            {
+                return MaNVBan;
+            }
+            set
+            {
+                MaNVBan = value;
+            }
+        }
+        public string NgayBan
+        {
+            get
+            {
+                return NgayBan;
+            }
+            set
+            {
+                NgayBan = value;
+            }
+        }
+        public double TongTien
+        {
+            get
+            {
+                return TongTien;
+            }
+            set
+            {
+                TongTien = value;
+            }
+        }
     }
 }

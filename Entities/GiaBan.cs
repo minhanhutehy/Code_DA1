@@ -23,9 +23,49 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             return maGiaBan + ";" + maGiay + ";" + giaBangiay + ";" + donViTinh;
         }
-        public string MaGiaBan { get => maGiaBan; set => maGiaBan = value; }
-        public string MaGiay { get => maGiay; set => maGiay = value; }
-        public double GiaBangiay { get => giaBangiay; set => giaBangiay = value; }
-        public string DonViTinh { get => donViTinh; set => donViTinh = value; }
+        public string MaGiaBan
+        {
+            get
+            {
+                return MaGiaBan;
+            }
+            set
+            {
+                MaGiaBan = value;
+            }
+        }
+        public string MaGiay
+        {
+            get
+            {
+                return MaGiay;
+            }
+            set
+            {
+                MaGiay = value;
+            }
+        }
+        public double GiaBangiay
+        {
+            get
+            {
+                return GiaBangiay;
+            }
+            set
+            {
+                GiaBangiay = value;
+            }
+        }
+        public string DonViTinh
+        {
+            get
+            {
+                return DonViTinh;
+            }
+            set
+            {
+                DonViTinh = value;
+            }
+        }
     }
 }

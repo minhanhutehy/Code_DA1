@@ -22,9 +22,49 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             return maNCC + ";" + tenNCC + ";" + diaChi + ";" + sdt;
         }
-        public string MaNCC { get => maNCC; set => maNCC = value; }
-        public string TenNCC { get => tenNCC; set => tenNCC = value; }
-        public string DiaChi { get => diaChi; set => diaChi = value; }
-        public string Sdt { get => sdt; set => sdt = value; }
+        public string MaNCC
+        {
+            get
+            {
+                return MaNCC;
+            }
+            set
+            {
+                MaNCC = value;
+            }
+        }
+        public string TenNCC
+        {
+            get
+            {
+                return TenNCC;
+            }
+            set
+            {
+                TenNCC = value;
+            }
+        }
+        public string DiaChi
+        {
+            get
+            {
+                return DiaChi;
+            }
+            set
+            {
+                DiaChi = value;
+            }
+        }
+        public string Sdt
+        {
+            get
+            {
+                return Sdt;
+            }
+            set
+            {
+                Sdt = value;
+            }
+        }
     }
 }

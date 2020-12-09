@@ -34,15 +34,115 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             return maHDN + ";" + maNCC + ";" + nvGiao + ";" + maNvNhan + ";" + ngayNhan + ";" + tongTien + ";" + trangThai + ";" + daTT + ";" + conNo + ";" + ghiChu;
         }
-        public string MaHDN { get => maHDN; set => maHDN = value; }
-        public string MaNCC { get => maNCC; set => maNCC = value; }
-        public string NvGiao { get => nvGiao; set => nvGiao = value; }
-        public string MaNvNhan { get => maNvNhan; set => maNvNhan = value; }
-        public string NgayNhan { get => ngayNhan; set => ngayNhan = value; }
-        public double TongTien { get => tongTien; set => tongTien = value; }
-        public string TrangThai { get => trangThai; set => trangThai = value; }
-        public double DaTT { get => daTT; set => daTT = value; }
-        public double ConNo { get => conNo; set => conNo = value; }
-        public string GhiChu { get => ghiChu; set => ghiChu = value; }
+        public string MaHDN
+        {
+            get
+            {
+                return MaHDN;
+            }
+            set
+            {
+                MaHDN = value;
+            }
+        }
+        public string MaNCC
+        {
+            get
+            {
+                return MaNCC;
+            }
+            set
+            {
+                MaNCC = value;
+            }
+        }
+        public string NvGiao
+        {
+            get
+            {
+                return MaNvGiao;
+            }
+            set
+            {
+                MaNvGiao = value;
+            }
+        }
+        public string MaNvNhan
+        {
+            get
+            {
+                return MaNvNhan;
+            }
+            set
+            {
+                MaNvNhan = value;
+            }
+        }
+        public string NgayNhan
+        {
+            get
+            {
+                return NgayNhan;
+            }
+            set
+            {
+                NgayNhan = value;
+            }
+        }
+        public double TongTien
+        {
+            get
+            {
+                return TongTien;
+            }
+            set
+            {
+                TongTien = value;
+            }
+        }
+        public string TrangThai
+        {
+            get
+            {
+                return TrangThai;
+            }
+            set
+            {
+                TrangThai = value;
+            }
+        }
+        public double DaTT
+        {
+            get
+            {
+                return DaTT;
+            }
+            set
+            {
+                DaTT = value;
+            }
+        }
+        public double ConNo
+        {
+            get
+            {
+                return ConNo;
+            }
+            set
+            {
+                ConNo = value;
+            }
+        }
+        public string GhiChu
+        {
+            get
+            {
+                return GhiChu;
+            }
+            set
+            {
+                GhiChu = value;
+            }
+        }
     }
 }

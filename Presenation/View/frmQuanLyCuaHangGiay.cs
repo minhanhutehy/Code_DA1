@@ -11,7 +11,7 @@ namespace Quanlycuahangbangiay.View
         public static int Menu()
         {
             Console.WriteLine("                      _________________________________________");
-            Console.WriteLine("                     |       QUẢN LÝ CỬA HÀNG GIÀY             |");
+            Console.WriteLine("                     |         QUẢN LÝ CỬA HÀNG GIÀY           |");
             Console.WriteLine("                     |_________________________________________|");
             Console.WriteLine("                     |        1. Quản lý mẫu giày              |");
             Console.WriteLine("                     |        2. Quản lý nhà cung cấp          |");
@@ -23,26 +23,12 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |        8. Quản lý hóa đơn bán           |");
             Console.WriteLine("                     |        9. Chi tiết hóa đơn bán          |");
             Console.WriteLine("                     |       10. Thoát                         |");
-            Console.WriteLine("                      _________________________________________");
+            Console.WriteLine("                     |_________________________________________|");
             int n;
             do
             {
                 n = int.Parse(Console.ReadLine());
             } while (!(n >= 1 || n <= 11));
-            return n;
-        }
-        public static int MenuLG()
-        {
-            Console.WriteLine("                      ___________________________");
-            Console.WriteLine("                     |   1. Thêm loại giày       |");
-            Console.WriteLine("                     |   2. Hiện các loại giày   |");
-            Console.WriteLine("                     |   3. Quay lại             |");
-            Console.WriteLine("                      ___________________________");
-            int n;
-            do
-            {
-                n = int.Parse(Console.ReadLine());
-            } while (!(n >= 1 || n <= 2));
             return n;
         }
         public static int MenuMG()

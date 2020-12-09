@@ -24,11 +24,61 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             return maTL + ";" + maNV + ";" + soNgayLV + ";" + thuong + ";" + luongCoBan;
         }
-        public string MaTL { get => maTL; set => maTL = value; }
-        public string MaNV { get => maNV; set => maNV = value; }
-        public double SoNgayLV { get => soNgayLV; set => soNgayLV = value; }
-        public double Thuong { get => thuong; set => thuong = value; }
-        public double LuongCoBan { get => luongCoBan; set => luongCoBan = value; }
+        public string MaTL
+        {
+            get
+            {
+                return MaTL;
+            }
+            set
+            {
+                MaTL = value;
+            }
+        }
+        public string MaNV
+        {
+            get
+            {
+                return MaNV;
+            }
+            set
+            {
+                MaNV = value;
+            }
+        }
+        public double SoNgayLV
+        {
+            get
+            {
+                return SoNgayLV;
+            }
+            set
+            {
+                SoNgayLV = value;
+            }
+        }
+        public double Thuong
+        {
+            get
+            {
+                return Thuong;
+            }
+            set
+            {
+                Thuong = value;
+            }
+        }
+        public double LuongCoBan
+        {
+            get
+            {
+                return LuongCoBan;
+            }
+            set
+            {
+                LuongCoBan = value;
+            }
+        }
         public double TinhTien(double soNgayLV,double luongCoBan,double thuong)
         {
             return soNgayLV * luongCoBan + thuong;

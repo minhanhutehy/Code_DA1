@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Quanlycuahangbangiay.Bussiness.Interface
 {
-    public interface CTHDBBll
+    public interface CTHDBBLL
     {
         void Them();
         void Hien();

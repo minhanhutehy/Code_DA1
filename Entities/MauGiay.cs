@@ -22,9 +22,49 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             return maGiay + ";" + tenGiay + ";" + slNhapve + ";" + slHienco;
         }
-        public string MaGiay { get => maGiay; set => maGiay = value; }
-        public string TenGiay { get => tenGiay; set => tenGiay = value; }
-        public int SlNhapve { get => slNhapve; set => slNhapve = value; }
-        public int SlHienco { get => slHienco; set => slHienco = value; }
+        public string MaGiay
+        {
+            get
+            {
+                return MaGiay;
+            }
+            set
+            {
+                MaGiay = value;
+            }
+        }
+        public string TenGiay
+        {
+            get
+            {
+                return TenGiay;
+            }
+            set
+            {
+                TenGiay = value;
+            }
+        }
+        public int SlNhapve
+        {
+            get
+            {
+                return SlNhapve;
+            }
+            set
+            {
+                SlNhapve = value;
+            }
+        }
+        public int SlHienco
+        {
+            get
+            {
+                return SlHienco;
+            }
+            set
+            {
+                SlHienco = value;
+            }
+        }
     }
 }

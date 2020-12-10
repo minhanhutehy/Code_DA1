@@ -15,7 +15,7 @@ namespace Quanlycuahangbangiay.Bussiness
         {
             Console.WriteLine(" _____________________________________________________");
             Console.WriteLine("|                   Nhập nhân viên                    |");
-            Console.WriteLine(" _____________________________________________________");
+            Console.WriteLine("|_____________________________________________________|");
             Console.Write("|                   Nhập mã tính lương: ");
             string matl = Console.ReadLine();
             Console.Write("|                   Nhập mã nhân viên: ");

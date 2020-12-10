@@ -15,7 +15,7 @@ namespace Quanlycuahangbangiay.Bussiness
         {
             Console.WriteLine(" _____________________________________________________");
             Console.WriteLine("|               Nhập giá giầy                         |");
-            Console.WriteLine(" _____________________________________________________");
+            Console.WriteLine("|_____________________________________________________|");
             Console.Write("|               Nhập mã giá bán: ");
             string maGiaBan=Console.ReadLine();
             Console.Write("|                mã giầy: ");

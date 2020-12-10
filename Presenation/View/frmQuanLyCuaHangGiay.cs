@@ -37,7 +37,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |      1. Thêm mẫu giày         |");
             Console.WriteLine("                     |      2. Hiện các mẫu giày     |");
             Console.WriteLine("                     |      3. Quay lại              |");
-            Console.WriteLine("                      _______________________________");
+            Console.WriteLine("                     |_______________________________|");
             int n;
             do
             {
@@ -51,7 +51,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |      1. Thêm nhà cung cấp         |");
             Console.WriteLine("                     |      2. Hiện tất cả nhà cung cấp  |");
             Console.WriteLine("                     |      3. Quay lại                  |");
-            Console.WriteLine("                      ___________________________________");
+            Console.WriteLine("                     |___________________________________|");
             int n;
             do
             {
@@ -68,7 +68,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |       4. Tìm nhân viên            |");
             Console.WriteLine("                     |       5. Sửa nhân viên            |");
             Console.WriteLine("                     |       6. Quay lại                 |");
-            Console.WriteLine("                      ___________________________________");
+            Console.WriteLine("                     |___________________________________|");
             int n;
             do
             {
@@ -83,7 +83,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |     2. Hiện hóa đơn tính lương       |");
             Console.WriteLine("                     |     3. Tìm hóa đơn                   |");
             Console.WriteLine("                     |     4. Quay lại                      |");
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                     |______________________________________|");
             int n;
             do
             {
@@ -98,7 +98,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |           2. Hiện giá giầy           |");
             Console.WriteLine("                     |           3. Tìm giá giầy            |");
             Console.WriteLine("                     |           4. Quay lại                |");
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                     |______________________________________|");
             int n;
             do
             {
@@ -112,7 +112,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |        1. Thêm hóa đơn nhập          |");
             Console.WriteLine("                     |        2. Hiện hóa đơn nhập          |");
             Console.WriteLine("                     |        3. Quay lại                   |");
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                     |______________________________________|");
             int n;
             do
             {
@@ -126,7 +126,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |    1. Thêm chi tiết hóa đơn nhập     |");
             Console.WriteLine("                     |    2. Hiện chi tiết hóa đơn nhập     |");
             Console.WriteLine("                     |    3. Quay lại                       |");
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                     |______________________________________|");
             int n;
             do
             {
@@ -140,7 +140,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |         1. Thêm hóa đơn bán          |");
             Console.WriteLine("                     |         2. Hiện hóa đơn bán          |");
             Console.WriteLine("                     |         3. Quay lại                  |");
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                     |______________________________________|");
             int n;
             do
             {
@@ -154,7 +154,7 @@ namespace Quanlycuahangbangiay.View
             Console.WriteLine("                     |    1. Thêm chi tiết hóa đơn ban      |");
             Console.WriteLine("                     |    2. Hiện chi tiết hóa đơn ban      |");
             Console.WriteLine("                     |    3. Quay lại                       |");
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                     |______________________________________|");
             int n;
             do
             {

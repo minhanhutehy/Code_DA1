@@ -15,7 +15,7 @@ namespace Quanlycuahangbangiay.Bussiness
         {
             Console.WriteLine(" _____________________________________________________");
             Console.WriteLine("|                   Nhập mẫu giầy                     |");
-            Console.WriteLine(" _____________________________________________________");
+            Console.WriteLine("|_____________________________________________________|");
             Console.Write("|                   Nhập mã giầy: ");
             string magiay = Console.ReadLine();
             Console.Write("|                   Nhập tên giầy: ");

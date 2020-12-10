@@ -14,8 +14,8 @@ namespace Quanlycuahangbangiay.Bussiness
         public void Them()
         {
             Console.WriteLine(" _____________________________________________________");
-            Console.WriteLine("|               Nhập chi tiết hóa đơn bán             ");
-            Console.WriteLine(" _____________________________________________________");
+            Console.WriteLine("|               Nhập chi tiết hóa đơn bán             |");
+            Console.WriteLine("|_____________________________________________________|");
             Console.Write("|            Nhập mã chi tiết hóa đơn bán: ");
             string maCTHDB = Console.ReadLine();
             Console.Write("|            Nhập mã hóa đơn bán: ");

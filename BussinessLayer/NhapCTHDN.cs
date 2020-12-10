@@ -23,8 +23,8 @@ namespace Quanlycuahangbangiay.Bussiness
         public void Them()
         {
             Console.WriteLine(" _____________________________________________________");
-            Console.WriteLine("|               Nhập chi tiết hóa đươn nhập            |");
-            Console.WriteLine(" _____________________________________________________");
+            Console.WriteLine("|               Nhập chi tiết hóa đươn nhập           |");
+            Console.WriteLine("|_____________________________________________________|");
             Console.Write("|            Nhập mã chi tiết hóa đơn nhập: ");
             string maCTHDN = Console.ReadLine();
             Console.Write("|            Nhập mã hóa đơn nhập: ");

@@ -15,7 +15,7 @@ namespace Quanlycuahangbangiay.Bussiness
         {
             Console.WriteLine(" _____________________________________________________");
             Console.WriteLine("|                   Nhập nhà cung cấp                 |");
-            Console.WriteLine(" _____________________________________________________");
+            Console.WriteLine("|_____________________________________________________|");
             Console.Write("|                   Nhập mã nhà cung cấp: ");
             string mancc = Console.ReadLine();
             Console.Write("|                   Nhập tên nhà cung cấp: ");

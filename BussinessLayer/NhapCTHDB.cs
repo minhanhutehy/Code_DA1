@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Quanlycuahangbangiay.Bussiness
 {
-    class NhapCTHDB : CTHDBBll
+    class NhapCTHDB : CTHDBBLL
     {
         public ArrayList cthdbs = new ArrayList();
         public void Them()

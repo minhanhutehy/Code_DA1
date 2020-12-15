@@ -60,11 +60,11 @@ namespace Quanlycuahangbangiay.DataAccess
         {
             get
             {
-                return MaNvGiao;
+                return NvGiao;
             }
             set
             {
-                MaNvGiao = value;
+                NvGiao = value;
             }
         }
         public string MaNvNhan

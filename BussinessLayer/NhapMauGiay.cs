@@ -30,10 +30,10 @@ namespace Quanlycuahangbangiay.Bussiness
         }
         public void Hien()
         {
-            Console.WriteLine("{0,10}|{1,10}|{2,10}|{3,20}","Ma giay","Ten Giay","So luong nhap","So luong hien co");
+            Console.WriteLine("{0,10}|{1,10}|{2,10}|{3,10}","Ma giay","Ten Giay","So luong nhap","So luong hien co");
             foreach(MauGiay mg in maugiays)
             {
-                Console.WriteLine("{0,10}|{1,10}|{2,20}|{3,20}", mg.MaGiay, mg.TenGiay, mg.SlNhapve, mg.SlHienco);
+                Console.WriteLine("{0,10}|{1,10}|{2,10}|{3,10}", mg.MaGiay, mg.TenGiay, mg.SlNhapve, mg.SlHienco);
             }    
         }
     }

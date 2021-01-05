@@ -27,6 +27,7 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.WriteLine(" _____________________________________________________");
             MauGiay mg = new MauGiay(magiay, tengiay, slNhap, slHienco);
             maugiays.Add(mg);
+            MauGiayDAL.Ghifile(maugiays);
         }
         public void Hien()
         {

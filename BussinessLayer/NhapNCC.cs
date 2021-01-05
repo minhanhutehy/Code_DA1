@@ -27,6 +27,7 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.WriteLine(" _____________________________________________________");
             NCC nc = new NCC(mancc, tenncc, diachi, sdt);
             nccs.Add(nc);
+            NCCDAL.Ghifile(nccs);
         }
         public void Hien()
         {

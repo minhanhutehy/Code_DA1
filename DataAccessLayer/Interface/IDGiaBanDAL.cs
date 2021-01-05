@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlycuahnagbangiayHATKshop.DataAccessLayer.Interface
 {
-    public interface IDGiaBanDAL
+    public interface IDGiaBanDAL { 
         void Ghifile();
     }
 }

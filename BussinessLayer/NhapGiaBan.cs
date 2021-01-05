@@ -27,6 +27,7 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.WriteLine(" _____________________________________________________");
             GiaBan gb = new GiaBan(maGiaBan, maGiay, giaBangiay, donvitinh);
             giabans.Add(gb);
+            GiaBanDAL.Ghifile(giabans);
         }
         public void Hien()
         {

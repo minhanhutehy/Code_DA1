@@ -11,3 +11,42 @@ E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1
 E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
 E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
 E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.genruntimeconfig.cache
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csprojAssemblyReference.cache
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfoInputs.cache
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfo.cs
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.exe
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.deps.json
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.json
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.dev.json
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+C:\Users\thanh\Downloads\Đồ Án 1\Đồ Án 1\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.genruntimeconfig.cache
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.exe
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.deps.json
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.json
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.dev.json
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csprojAssemblyReference.cache
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfoInputs.cache
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfo.cs
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+C:\Users\thanh\Downloads\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.genruntimeconfig.cache
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.exe
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.deps.json
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.json
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.runtimeconfig.dev.json
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\bin\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csprojAssemblyReference.cache
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.csproj.CoreCompileInputs.cache
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfoInputs.cache
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.AssemblyInfo.cs
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.dll
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.pdb
+E:\ĐỒ ÁN IT\Đồ Án 1\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\quanlycuahnagbangiayHATKshop\obj\Debug\netcoreapp3.1\quanlycuahnagbangiayHATKshop.genruntimeconfig.cache

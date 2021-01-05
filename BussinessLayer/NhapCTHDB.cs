@@ -30,14 +30,16 @@ namespace Quanlycuahangbangiay.Bussiness
             string donViTinh = Console.ReadLine();
             Console.WriteLine(" _____________________________________________________");
             ChiTietHoaDonBan hdb = new ChiTietHoaDonBan(maCTHDB, maHDB, maGiay, soLuong, donGiaBan, donViTinh);
+
             cthdbs.Add(hdb);
+            CTHDBDAL.Ghifile(cthdbs);
         }
         public void Hien()
         {
             Console.WriteLine("{0,15}|{1,15}|{2,15}|{3,15}|{4,20}|{5,20}|{6,15}", "Ma CTHDB", "Ma HDB", "Ma Giay", "So Luong", "Don Gia Ban", "Don Vi Tinh", "Thanh Tien");
             foreach (ChiTietHoaDonBan hdb in cthdbs)
             {
-                Console.WriteLine("{0,15}|{1,15}|{2,15}|{3,15}|{4,20}|{5,20}|{6,15}", hdb.MaCTHDB, hdb.MaHDB, hdb.MaGiay, hdb.SoLuong, hdb.DonGiaBan, hdb.DonViTinh, hdb.ThanhTien(hdb.SoLuong, hdb.DonGiaBan));
+                Console.WriteLine("{0,15}|{1,15}|{2,15}|{3,15}|{4,20}|{5,20}|{6,15}", hdb.MaCTHDB, hdb.MaHDB, hdb.MaGiay, hdb.SoLuong, hdb.DonGiaBan, hdb.DonViTinh, hdb.ThanhTien());
             }
         }
     }

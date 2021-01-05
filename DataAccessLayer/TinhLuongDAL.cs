@@ -11,22 +11,25 @@ namespace Quanlycuahangbangiay.DataAccess
     {
         public static ArrayList Docfile(ArrayList arr)
         {
-            StreamReader streamReader = new StreamReader("TinhLuong.txt");
-            string line;
-
-            while ((line = streamReader.ReadLine()) != null)
+            if (File.Exists("data/TinhLuong.txt"))
             {
-                if (line == " ") break;
+                StreamReader streamReader = new StreamReader("data/TinhLuong.txt");
+                string line;
 
-                arr.Add(new TinhLuong(line.Split(';')[0], line.Split(';')[1], double.Parse(line.Split(';')[2]), double.Parse(line.Split(';')[3]), double.Parse(line.Split(';')[4])));
+                while ((line = streamReader.ReadLine()) != null)
+                {
+                    if (line == " ") break;
 
+                    arr.Add(new TinhLuong(line.Split(';')[0], line.Split(';')[1], double.Parse(line.Split(';')[2]), double.Parse(line.Split(';')[3]), double.Parse(line.Split(';')[4])));
+
+                }
+                streamReader.Close();
             }
-            streamReader.Close();
             return arr;
         }
         public static void Ghifile(ArrayList arr)
         {
-            StreamWriter streamWriter = new StreamWriter("TinhLuong.txt");
+            StreamWriter streamWriter = new StreamWriter("data/TinhLuong.txt");
             foreach (TinhLuong tl in arr)
             {
                 streamWriter.WriteLine(tl.ToString());

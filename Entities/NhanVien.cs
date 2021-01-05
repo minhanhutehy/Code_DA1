@@ -14,83 +14,26 @@ namespace Quanlycuahangbangiay.DataAccess
         string loaiNV;
         public NhanVien(string maNV,string tenNV,string ngaySinh,string gioiTinh,string ngayVaoLV,string loaiNV)
         {
-            this.maNV = maNV;
-            this.tenNV = tenNV;
-            this.ngaySinh = ngaySinh;
-            this.gioiTinh = gioiTinh;
-            this.ngayVaoLV = ngayVaoLV;
-            this.loaiNV = loaiNV;
+            this.MaNV = maNV;
+            this.TenNV = tenNV;
+            this.NgaySinh = ngaySinh;
+            this.GioiTinh = gioiTinh;
+            this.NgayVaoLV = ngayVaoLV;
+            this.LoaiNV = loaiNV;
         }
+
+        public string MaNV { get => maNV; set => maNV = value; }
+        public string TenNV { get => tenNV; set => tenNV = value; }
+        public string NgaySinh { get => ngaySinh; set => ngaySinh = value; }
+        public string GioiTinh { get => gioiTinh; set => gioiTinh = value; }
+        public string NgayVaoLV { get => ngayVaoLV; set => ngayVaoLV = value; }
+        public string LoaiNV { get => loaiNV; set => loaiNV = value; }
+
         override
             public string ToString()
         {
-            return maNV + ";" + tenNV + ";" + ngaySinh + ";" + gioiTinh + ";" + ngayVaoLV + ";" + loaiNV;
+            return MaNV + ";" + TenNV + ";" + NgaySinh + ";" + GioiTinh + ";" + NgayVaoLV + ";" + LoaiNV;
         }
-        public string MaNV
-        {
-            get
-            {
-                return MaNV;
-            }
-            set
-            {
-                MaNV = value;
-            }
-        }
-        public string TenNV
-        {
-            get
-            {
-                return TenNV;
-            }
-            set
-            {
-                TenNV = value;
-            }
-        }
-        public string NgaySinh
-        {
-            get
-            {
-                return NgaySinh;
-            }
-            set
-            {
-                NgaySinh = value;
-            }
-        }
-        public string GioiTinh
-        {
-            get
-            {
-                return GioiTinh;
-            }
-            set
-            {
-                GioiTinh = value;
-            }
-        }
-        public string NgayVaoLV
-        {
-            get
-            {
-                return NgayVaoLV;
-            }
-            set
-            {
-                NgayVaoLV = value;
-            }
-        }
-        public string LoaiNV
-        {
-            get
-            {
-                return LoaiNV;
-            }
-            set
-            {
-                LoaiNV = value;
-            }
-        }
+      
     }
 }

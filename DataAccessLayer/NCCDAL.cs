@@ -11,22 +11,25 @@ namespace Quanlycuahangbangiay.DataAccess
     {
         public static ArrayList Docfile(ArrayList ncc)
         {
-            StreamReader streamReader = new StreamReader("NhaCungCap.txt");
-            string line;
-
-            while ((line = streamReader.ReadLine()) != null)
+            if (File.Exists("data/NhaCungCap.txt"))
             {
-                if (line == " ") break;
+                StreamReader streamReader = new StreamReader("data/NhaCungCap.txt");
+                string line;
 
-                ncc.Add(new NCC(line.Split(';')[0], line.Split(';')[1], line.Split(';')[2], line.Split(';')[3]));
+                while ((line = streamReader.ReadLine()) != null)
+                {
+                    if (line == " ") break;
 
+                    ncc.Add(new NCC(line.Split(';')[0], line.Split(';')[1], line.Split(';')[2], line.Split(';')[3]));
+
+                }
+                streamReader.Close();
             }
-            streamReader.Close();
             return ncc;
         }
         public static void Ghifile(ArrayList ncc)
         {
-            StreamWriter streamWriter = new StreamWriter("NhaCungCap.txt");
+            StreamWriter streamWriter = new StreamWriter("data/NhaCungCap.txt");
             foreach (NCC nc in ncc)
             {
                 streamWriter.WriteLine(nc.ToString());

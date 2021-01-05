@@ -27,6 +27,7 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.WriteLine(" _____________________________________________________");
             HoaDonBan hdb = new HoaDonBan(maHDB, maNVBan, ngayBan, tongTien);
             hoadonbans.Add(hdb);
+            HoaDonBanDAL.Ghifile(hoadonbans);
         }
         public void Hien()
         {

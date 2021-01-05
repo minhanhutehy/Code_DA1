@@ -40,6 +40,7 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.WriteLine(" _____________________________________________________");
             ChiTietHoaDonNhap cthd = new ChiTietHoaDonNhap(maCTHDN, maHDN, maGiay, soLuong, donGiaNhap, vAT);
             cthdns.Add(cthd);//Thêm đối tượng vài mảng hóa đơn nhập
+            CTHDNDAL.Ghifile(cthdns);
         }
     }
 }

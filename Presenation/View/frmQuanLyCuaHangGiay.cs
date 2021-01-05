@@ -10,7 +10,7 @@ namespace Quanlycuahangbangiay.View
     {
         public static int Menu()
         {
-            Console.WriteLine("                      _________________________________________");
+            Console.WriteLine("                      __________________________________________");
             Console.WriteLine("                     |         QUẢN LÝ CỬA HÀNG GIÀY           |");
             Console.WriteLine("                     |_________________________________________|");
             Console.WriteLine("                     |        1. Quản lý mẫu giày              |");
@@ -136,7 +136,7 @@ namespace Quanlycuahangbangiay.View
         }
         public static int MenuHDB()
         {
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                      _______________________________________");
             Console.WriteLine("                     |         1. Thêm hóa đơn bán          |");
             Console.WriteLine("                     |         2. Hiện hóa đơn bán          |");
             Console.WriteLine("                     |         3. Quay lại                  |");
@@ -150,7 +150,7 @@ namespace Quanlycuahangbangiay.View
         }
         public static int MenuCTHDB()
         {
-            Console.WriteLine("                      ______________________________________");
+            Console.WriteLine("                      _______________________________________");
             Console.WriteLine("                     |    1. Thêm chi tiết hóa đơn ban      |");
             Console.WriteLine("                     |    2. Hiện chi tiết hóa đơn ban      |");
             Console.WriteLine("                     |    3. Quay lại                       |");
@@ -404,7 +404,6 @@ namespace Quanlycuahangbangiay.View
                         } while (chon >= 1 && chon <= 2);
                         break;
                     case 10:
-                        GhiAllFile();
                         System.Environment.Exit(0);
                         break;
                 }
@@ -433,19 +432,6 @@ namespace Quanlycuahangbangiay.View
             NCCDAL.Docfile(ncc.nccs);
             NhanVienDAL.Docfile(nnv.nhanviens);
             TinhLuongDAL.Docfile(tl.tinhluongs);
-        }
-        public static void GhiAllFile()
-        {
-            CTHDBDAL.Ghifile(cthdb.cthdbs);
-            CTHDNDAL.Ghifile(cthdn.cthdns);
-            GiaBanDAL.Ghifile(ngb.giabans);
-            HoaDonBanDAL.Ghifile(nhdb.hoadonbans);
-            HoaDonNhapDAL.Ghifile(nhdn.hoadonnhaps);
-           
-            MauGiayDAL.Ghifile(nmg.maugiays);
-            NCCDAL.Ghifile(ncc.nccs);
-            NhanVienDAL.Ghifile(nnv.nhanviens);
-            TinhLuongDAL.Ghifile(tl.tinhluongs);
         }
         public static void Pass()
         {

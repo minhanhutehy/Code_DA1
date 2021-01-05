@@ -31,6 +31,7 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.WriteLine(" _____________________________________________________");
             NhanVien nv = new NhanVien(manv, tennv, ngaysinh, gioitinh, ngayvaolv, loainv);
             nhanviens.Add(nv);
+            NhanVienDAL.Ghifile(nhanviens);
         }
         public void Hien()
         {
@@ -61,6 +62,7 @@ namespace Quanlycuahangbangiay.Bussiness
                 nhanviens.RemoveAt(i);
                 Console.WriteLine("Xóa thành công");
             }
+            NhanVienDAL.Ghifile(nhanviens);
         }
         public void Tim(string ma)
         {
@@ -95,6 +97,7 @@ namespace Quanlycuahangbangiay.Bussiness
                     Console.WriteLine(" _____________________________________________________");
                 }
             }
+            NhanVienDAL.Ghifile(nhanviens);
         }
     }
 }

@@ -12,59 +12,22 @@ namespace Quanlycuahangbangiay.DataAccess
         double tongTien;
         public HoaDonBan(string maHDB, string maNVBan, string ngayBan, double tongTien)
         {
-            this.maHDB = maHDB;
-            this.maNVBan = maNVBan;
-            this.ngayBan = ngayBan;
-            this.tongTien = tongTien;
+            this.MaHDB = maHDB;
+            this.MaNVBan = maNVBan;
+            this.NgayBan = ngayBan;
+            this.TongTien = tongTien;
         }
+
+        public string MaHDB { get => maHDB; set => maHDB = value; }
+        public string MaNVBan { get => maNVBan; set => maNVBan = value; }
+        public string NgayBan { get => ngayBan; set => ngayBan = value; }
+        public double TongTien { get => tongTien; set => tongTien = value; }
+
         override
             public string ToString()
         {
-            return maHDB + ";" + maNVBan + ";" + ngayBan + ";" + tongTien;
+            return MaHDB + ";" + MaNVBan + ";" + NgayBan + ";" + TongTien;
         }
-        public string MaHDB
-        {
-            get
-            {
-                return MaHDBn;
-            }
-            set
-            {
-                MaHDB = value;
-            }
-        }
-        public string MaNVBan
-        {
-            get
-            {
-                return MaNVBan;
-            }
-            set
-            {
-                MaNVBan = value;
-            }
-        }
-        public string NgayBan
-        {
-            get
-            {
-                return NgayBan;
-            }
-            set
-            {
-                NgayBan = value;
-            }
-        }
-        public double TongTien
-        {
-            get
-            {
-                return TongTien;
-            }
-            set
-            {
-                TongTien = value;
-            }
-        }
+        
     }
 }

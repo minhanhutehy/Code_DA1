@@ -36,15 +36,16 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.Write("|                   Nhập ghi chú: ");
             string ghiChu=Console.ReadLine();
             Console.WriteLine(" _____________________________________________________");
-            HoaDonNhap hdn = new HoaDonNhap(maHDN, maNCC, nvGiao, maNvNhan, ngayNhan, tongTien, trangThai, daTT, conNo, ghiChu);
+            HoaDonNhap hdn = new HoaDonNhap(maHDN,maNCC,nvGiao,maNvNhan,ngayNhan,tongTien,trangThai,daTT,conNo,ghiChu);
             hoadonnhaps.Add(hdn);
+            HoaDonNhapDAL.Ghifile(hoadonnhaps);
         }
         public void Hien()
         {
-            Console.WriteLine("{0,15}|{1,15}|{2,15}|{3,15}|{4,15}|{5,15}|{6,15}|{7,15}|{8,15}|{9,15}", "Mã HDN","Ma NCC","Ma NvGiao","Ma NvNhan","Tong tien","Trang thai","Thanh toan","Con no","Ghi chu");
+            Console.WriteLine("{0,15}|{1,15}|{2,15}|{3,15}|{4,15}|{5,15}|{6,15}|{7,15}", "Mã HDN","Ma NvGiao","Ma NvNhan","NgayNhan","Tong tien","Trang thai","Thanh toan","Ghi chu");
             foreach(HoaDonNhap hdn in hoadonnhaps)
             {
-                Console.WriteLine("{0,15}|{1,15}|{2,15}|{3,15}|{4,15}|{5,15}|{6,15}|{7,15}|{8,15}|{9,15}", hdn.MaHDN,hdn.MaNCC,hdn.NvGiao,hdn.MaNvNhan,hdn.NgayNhan,hdn.TongTien,hdn.TrangThai,hdn.DaTT,hdn.ConNo,hdn.GhiChu);
+                Console.WriteLine("{0,15}|{1,15}|{2,15}|{3,15}|{4,15}|{5,15}|{6,15}|{7,15}", hdn.MaHDN,hdn.NvGiao,hdn.MaNvNhan,hdn.NgayNhan,hdn.TongTien,hdn.TrangThai,hdn.DaTT,hdn.GhiChu);
             }    
 
         }

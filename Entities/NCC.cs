@@ -12,59 +12,22 @@ namespace Quanlycuahangbangiay.DataAccess
         string sdt;
         public NCC(string maNCC,string tenNCC,string diaChi,string sdt)
         {
-            this.maNCC = maNCC;
-            this.tenNCC = tenNCC;
-            this.diaChi = diaChi;
-            this.sdt = sdt;
+            this.MaNCC = maNCC;
+            this.TenNCC = tenNCC;
+            this.DiaChi = diaChi;
+            this.Sdt = sdt;
         }
+
+        public string MaNCC { get => maNCC; set => maNCC = value; }
+        public string TenNCC { get => tenNCC; set => tenNCC = value; }
+        public string DiaChi { get => diaChi; set => diaChi = value; }
+        public string Sdt { get => sdt; set => sdt = value; }
+
         override
             public string ToString()
         {
-            return maNCC + ";" + tenNCC + ";" + diaChi + ";" + sdt;
+            return MaNCC + ";" + TenNCC + ";" + DiaChi + ";" + Sdt;
         }
-        public string MaNCC
-        {
-            get
-            {
-                return MaNCC;
-            }
-            set
-            {
-                MaNCC = value;
-            }
-        }
-        public string TenNCC
-        {
-            get
-            {
-                return TenNCC;
-            }
-            set
-            {
-                TenNCC = value;
-            }
-        }
-        public string DiaChi
-        {
-            get
-            {
-                return DiaChi;
-            }
-            set
-            {
-                DiaChi = value;
-            }
-        }
-        public string Sdt
-        {
-            get
-            {
-                return Sdt;
-            }
-            set
-            {
-                Sdt = value;
-            }
-        }
+      
     }
 }

@@ -29,6 +29,7 @@ namespace Quanlycuahangbangiay.Bussiness
             Console.WriteLine(" _____________________________________________________");
             TinhLuong tl = new TinhLuong(matl, manv, songaylv, thuong, luongcb);
             tinhluongs.Add(tl);
+            TinhLuongDAL.Ghifile(tinhluongs);
         }
         public void Hien()
         {

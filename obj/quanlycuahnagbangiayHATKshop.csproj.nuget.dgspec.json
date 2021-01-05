@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj": {}
+    "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj": {}
   },
   "projects": {
-    "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj": {
+    "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj",
+        "projectUniqueName": "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj",
         "projectName": "quanlycuahnagbangiayHATKshop",
-        "projectPath": "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj",
+        "projectPath": "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\obj\\",
+        "outputPath": "E:\\ĐỒ ÁN IT\\Đồ Án 1\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\quanlycuahnagbangiayHATKshop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

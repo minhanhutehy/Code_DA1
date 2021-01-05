@@ -12,59 +12,22 @@ namespace Quanlycuahangbangiay.DataAccess
         int slHienco;
         public MauGiay(string maGiay,string tenGiay,int slNhapve,int slHienco)
         {
-            this.maGiay = maGiay;
-            this.tenGiay = tenGiay;
-            this.slNhapve = slNhapve;
-            this.slHienco = slHienco;
+            this.MaGiay = maGiay;
+            this.TenGiay = tenGiay;
+            this.SlNhapve = slNhapve;
+            this.SlHienco = slHienco;
         }
+
+        public string MaGiay { get => maGiay; set => maGiay = value; }
+        public string TenGiay { get => tenGiay; set => tenGiay = value; }
+        public int SlNhapve { get => slNhapve; set => slNhapve = value; }
+        public int SlHienco { get => slHienco; set => slHienco = value; }
+
         override
             public string ToString()
         {
-            return maGiay + ";" + tenGiay + ";" + slNhapve + ";" + slHienco;
+            return MaGiay + ";" + TenGiay + ";" + SlNhapve + ";" + SlHienco;
         }
-        public string MaGiay
-        {
-            get
-            {
-                return MaGiay;
-            }
-            set
-            {
-                MaGiay = value;
-            }
-        }
-        public string TenGiay
-        {
-            get
-            {
-                return TenGiay;
-            }
-            set
-            {
-                TenGiay = value;
-            }
-        }
-        public int SlNhapve
-        {
-            get
-            {
-                return SlNhapve;
-            }
-            set
-            {
-                SlNhapve = value;
-            }
-        }
-        public int SlHienco
-        {
-            get
-            {
-                return SlHienco;
-            }
-            set
-            {
-                SlHienco = value;
-            }
-        }
+       
     }
 }
